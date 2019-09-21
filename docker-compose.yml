@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nodeaks:
+    image: sourav-node-docker
+    build: .   
+    ports:
+      - "3000:3000"
